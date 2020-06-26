@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    background-color: yellow;
+}
+nav {
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 100;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.logo img {
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: right;
+    
+}
+
+.heading{
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.first {
+    background-color: yellow;
+    height: 800px;
+}
+.column {
+    float: left;
+    width: 31.33%;
+    padding: 5px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 80px;
+  }
+  #frst {
+    
+    width: 35%;
+   margin-left: 150px;
+    background-color: yellow;
+}
+#scnd {
+    
+    width: 35%;
+   margin-left: 150px;
+    background-color: yellow;
+}
+#third {
+    
+    width: 35%;
+   margin-left: 150px;
+    background-color: yellow;
+}
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-left: 42.5%;
+    padding: 10px 20px;
+    
+}
+.important {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(200px,auto);
+    grid-gap: 1em;
+    padding: 2em 7em; 
+   
+    
+}
+
+#important-container li, select {
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: column;
+ 
+}
+#about ul{
+    list-style: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    
+    padding: 10px;
+  }
+  
+  .ff{
+    margin-left: 90px;
+    
+  }
+  
+  
